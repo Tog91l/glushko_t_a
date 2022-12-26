@@ -1,0 +1,11 @@
+#include <iostream> 
+int main(){
+    long long a, m;
+    std::cin >> a >> m;
+    if (a*100000%m){
+        std:: cout << "Yes";
+    }
+    else{
+        std:: cout<< "No";
+    }
+}
