@@ -1,0 +1,9 @@
+#include <iostream>
+#include <math.h>
+
+int main() {
+	int x, x0, c;
+	c = x - x0;
+	c == 0,05;
+	
+}
