@@ -1,0 +1,11 @@
+#include <iostream>
+ 
+ 
+int x,a;
+int main()
+{
+   for (std:: cin >> x;x;x/=2)
+   a = a + x%2;
+   
+   std:: cout <<a;
+}
