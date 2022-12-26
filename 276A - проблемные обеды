@@ -1,0 +1,21 @@
+#include <iostream> 
+int n,k,f,t,m,r;
+int main()
+{
+    std:: cin >> n>>k;
+    while (n--)
+    std:: cin >> f >>t;
+    if (t>k){
+        m = f-(t-k);
+        
+    }
+    else {
+        r = f;
+    }
+    if (r>n){
+        std:: cout << r;
+    }
+    else{
+        std:: cout << m;
+    }
+}
