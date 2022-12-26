@@ -1,0 +1,13 @@
+#include <iostream>
+int t,n,a[1100100],j,f;
+int main(){
+    std:: cin>>t;
+    while(t--){
+        std:: cin>>n;
+        for ( int i=1;i<=n;i++ ) std:: cin>>a[i];
+        f=1 ; j=n;
+        while (f<j&&a[f+1]) f++;
+        while (j>f&&a[j-1]) j--;
+        std:: cout<<j-f<< std:: endl;
+    }
+}
