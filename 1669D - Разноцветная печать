@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+int main()
+{
+   int t,n;
+   std::string s;
+   std:: cin>>t;
+   std:: cin>>n;
+   std:: cin>>s, s=n;
+       for (int i =1; i < s.length(); i++){
+           if (s[i] = "R" || "B"||"W"){
+               std:: cout << "No";
+           }
+               
+           else{
+               std:: cout << "Yes";
+           }
+       }       
+       
+   }
