@@ -1,0 +1,17 @@
+#include <iostream>
+ 
+ 
+int long long n,k,a;
+int main()
+{
+    
+    std :: cin>>n>> k;
+    int q[n];
+    int start = 0, ends = 0;
+    for (int i = 0; i<n; i++)
+    std:: cin>>a;
+    q[ends++] =a;
+    if ( q[start]>n<k )
+    
+    std:: cout<<a;
+}
