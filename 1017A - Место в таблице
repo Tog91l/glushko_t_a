@@ -1,0 +1,11 @@
+#include <iostream>
+int n,a,b,c,d,m[1000],i,f=1;
+int main(){
+ 
+    std :: cin >> n;
+    for (i = 0; i<=n; i++ )
+    std:: cin >> a>>b>>c>>d;
+    m[i] = a+b+c+d;
+    if(m[1]<m[i])f++;
+    std::cout << f;   
+}
